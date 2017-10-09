@@ -101,15 +101,10 @@ describe('', function() {
         }
       };
       //SEE RESPONSE EXAMPLE AT https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&apikey=demo
-      // request(options, function(error, res, body) {
-      //     expect(res.body['META DATA']['symbol']).to.exist;
-      //
-      //     done();
-      //   });
-      // });
+
 
       //Use POSTMAN to test api requests
     });
-
+  });
 
 });
